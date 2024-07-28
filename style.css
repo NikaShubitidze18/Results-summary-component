@@ -1,0 +1,176 @@
+body{
+    font-family: Hanken Grotesk;
+}
+.main-wrapperrrr{
+display: flex;
+margin-left: 20%;
+    
+}
+.main-wrapper{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.left-wrappe{
+    width: 50%;
+    background: linear-gradient(0deg, hsl(252, 100%, 67%),  hsl(241, 81%, 54%) 50%,hsl(241, 97%, 56%)) ;      
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+   flex-direction: column;
+   color: white;
+ 
+}
+
+.left-wrpapaer{
+    width: 100%;  
+    text-align: center;
+    display: inline;
+}
+.left-wrpapaer h4{
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
+.crrrcualr{
+    
+    width: 100%;
+    margin-top: 10%;
+}
+.circular{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(50deg, hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0)) ;      
+    border-radius: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+.circular-div{
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+.left-bootm{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+
+}
+.p-loremmm{
+    margin-top: -35px;
+    color: hsl(241, 100%, 89%);
+}
+/*--------------------------------აქედან ვიწყებ ამრჯვენა მხარეწს----*/
+.right-wrapper{
+  width: 50%;
+  height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.bottom-div{
+margin-left: 10px;
+width: 100%;
+display: flex;
+}
+.right-div-sum{
+    display: flex;
+    height: 100%;
+ margin-left: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+.row-div{
+    align-items: center;
+    display: flex;
+    margin-top: 12%;
+    font-size: 20px;
+  
+}
+.span-title{
+    margin-left: 25px;
+}
+.span-top{
+    margin-left: 35px; 
+    color: hsl(241, 100%, 89%);
+}
+.button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.h333{
+    color: hsl(224, 30%, 27%);
+    margin-left: 20px;
+}
+.span-colors{
+    color: hsl(224, 30%, 27%);
+}
+.span-one{
+    color: hsl(0, 100%, 67%);
+}
+.span-two{
+color: hsl(39, 100%, 56%);
+}
+.span-swri{
+    color: hsl(166, 100%, 37%);
+    }
+    .span-for{
+        color: hsl(234, 85%, 45%);
+        }
+.button-button{
+    width: 200px;
+    height: 35px;
+    border: 1px solid hsl(224, 30%, 27%);
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.button-button:hover{
+    border: 0px solid;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media (min-width: 360px) and (max-width: 430px){
+    .main-wrapperrrr{
+        margin: auto;
+    }
+    .main-wrapper{
+        flex-direction: column;
+      
+    }
+    .left-wrappe{
+     width: 100%;
+    height: 100vh;
+    }
+    .left-wrappe{
+        margin-top: -50px;
+    }
+    .left-wrpapaer h4{
+        margin-bottom: -2px;
+    }
+    .button-div{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 45%;
+    }
+}
+
+/*-------------------------------------------font-----------*/
+.hanken-grotesk-uniquifier{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+
+}
